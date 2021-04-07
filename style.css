@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* color: grey; */
+}
+
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 70%;
+  /* border: solid white; */
+  border-radius: 50px;
+}
+.navbar {
+  background: transparent black;
+  display: flex;
+  position: sticky;
+  top: 0px;
+  cursor: pointer;
+}
+.nav-list {
+  width: 70%;
+  /* background-color: black; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 25px;
+  height: 54px;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  text-transform: capitalize;
+  text-shadow: grey;
+  /* width: 13%; */
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li a:hover {
+  text-decoration: none;
+  color: rgb(26, 21, 21);
+}
+
+.rightnav {
+  /* background-color: blue; */
+  width: 50%;
+  text-align: right;
+  margin: 40px;
+}
+
+#search {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid white;
+  border-radius: 16px;
+}
+
+.background {
+  background-image: url(bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-blend-mode: darken;
+  /* background: center; */
+}
+
+.firstSection {
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  padding: 80px;
+  /* background-blend-mode: darken; */
+  height: 70vh;
+}
+.box-main {
+  /* left: 10%; */
+  /* background-repeat: no-repeat; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 80%;
+  margin: auto;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.firstHalf {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondHalf {
+  width: 30%;
+}
+.btn {
+  padding: 7px;
+  margin: 5px 3px;
+  border: 2px solid snow;
+  border-radius: 20px;
+  font-size: 18px;
+  width: 15%;
+  cursor: pointer;
+  background: none;
+  color: white;
+}
+
+.btn-sn {
+  padding: 7px 18px;
+  vertical-align: middle;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+}
