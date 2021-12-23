@@ -74,6 +74,8 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-blend-mode: darken;
+  opacity: 0.5;
+  z-index: -1;
   /* background: center; */
 }
 
