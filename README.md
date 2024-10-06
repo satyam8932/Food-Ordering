@@ -1,1 +1,3 @@
-# Food Explosion
+# Food Ordering
+
+Simple HTML CSS JS templates
