@@ -1,3 +1,3 @@
 # Food Ordering
 
-Simple HTML CSS SASS JS templates.
+Simple HTML CSS JS templates.
